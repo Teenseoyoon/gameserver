@@ -3,7 +3,7 @@ import os
 import json
 import sqlite3
 import pandas as pd
-from db import init_db, get_user, add_user
+from db.py import init_db, get_user, add_user
 import random
 import time
 # ✅ 페이지 상태 초기화
